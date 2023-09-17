@@ -1,5 +1,5 @@
 {
-  "name": "placementportal",
+  "name": "placement-portal",
   "version": "1.0.0",
   "description": "MERN Placement Portal for TCP Cell, IIIT Allahabad",
   "main": "server.js",
@@ -13,7 +13,7 @@
     "data:destroy": "node backend/seeder -d",
     "render-postbuild": "NPM_CONFIG_PRODUCTION=false npm install && npm install --prefix frontend && npm run build --prefix frontend"
   },
-  "author": "Pulkit Gupta",
+  "author": "Deepanshu",
   "license": "ISC",
   "dependencies": {
     "@emailjs/nodejs": "^2.1.1",
